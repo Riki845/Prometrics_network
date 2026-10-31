@@ -1,0 +1,56 @@
+Versión docente: 1.0 Revisión: ffda6561f812a2645c9fb234fa0536a798d694e3
+Parche: campos nulos en referencias WoS; vacíos conservados como vacíos.
+
+              ============================
+                Reading WoS file...
+              ============================
+              
+1. WoS DataFrame successfully created
+INICIO: enrich_wos_with_openalex_authors — puede tardar; espera al mensaje FIN.
+FIN: enrich_wos_with_openalex_authors — 2.0 minutos; recuperación guardada.
+2. WoS authors enriched with OpenAlex (names/ORCID/IDs)
+3. WoS references extracted
+INICIO: enrich_references_with_openalex — puede tardar; espera al mensaje FIN.
+[OpenAlex ERROR] DOI 10.1108/jeee-12-2020-0366: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/jeee-12-2020-0366?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1155/2022/64690: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1155/2022/64690?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.intrnar.2019.05.002: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.intrnar.2019.05.002?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.3923/jeasci.2017.87.94: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.3923/jeasci.2017.87.94?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1162/dmal.9780262562324.073: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1162/dmal.9780262562324.073?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.34190/eair.20.035: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.34190/eair.20.035?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.63922/ajmesc.v3i01.130: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.63922/ajmesc.v3i01.130?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.22201/fca.24488410-.2005.562: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.22201/fca.24488410-.2005.562?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5281/zenodo.4280084: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5281/zenodo.4280084?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.9770/jesi.2019.6.4(42: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.9770/jesi.2019.6.4(42?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-319-39679-813: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-319-39679-813?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.9770/jssi.2019.6.3(32: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.9770/jssi.2019.6.3(32?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13393/j.cnki.issn.1672-948x.2017.03.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13393/j.cnki.issn.1672-948x.2017.03.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-030-18819-14: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-030-18819-14?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.34021/ve.2023.06.01(4: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.34021/ve.2023.06.01(4?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1229/tecempresarialjournal.v19i1.455: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1229/tecempresarialjournal.v19i1.455?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5281/zenodo.887089: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5281/zenodo.887089?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.34021/ve.2022.05.01(2: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.34021/ve.2022.05.01(2?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1520-6793(199808)15:5: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1520-6793(199808)15:5?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-031-39626-7-9: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-031-39626-7-9?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1093/0198289774.001.0001: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1093/0198289774.001.0001?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1201/9781315155890-3/brief-history: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1201/9781315155890-3/brief-history?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.ac-cinf.2006.12.001: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.ac-cinf.2006.12.001?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13140/2.1.3311.9523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13140/2.1.3311.9523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199905)20:5: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199905)20:5?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2022.vol9.no9.0291: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2022.vol9.no9.0291?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.22452/ajba.vol14no2.6: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.22452/ajba.vol14no2.6?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1162/qes_a_00112: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1162/qes_a_00112?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-030-43453-31: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-030-43453-31?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1191/1478088706qp063oaandgt: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1191/1478088706qp063oaandgt?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5281/zenodo.7852087: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5281/zenodo.7852087?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.59160/ijscm.v9i3.5027: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.59160/ijscm.v9i3.5027?api_key=[CLAVE_OCULTA]
+
+EJECUCIÓN INTERRUMPIDA: KeyboardInterrupt: 

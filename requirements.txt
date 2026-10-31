@@ -1,0 +1,9 @@
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+networkx>=3.2
+matplotlib>=3.7
+# optional
+scikit-learn>=1.3   # only for the extra check inside --selftest
+statsmodels>=0.14   # only for the optional cross-check
+pytest>=7           # only for tests/

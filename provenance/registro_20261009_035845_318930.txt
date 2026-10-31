@@ -1,0 +1,625 @@
+Versión docente: 1.0 Revisión: ffda6561f812a2645c9fb234fa0536a798d694e3
+Parche: campos nulos en referencias WoS; vacíos conservados como vacíos.
+
+              ============================
+                Reading WoS file...
+              ============================
+              
+1. WoS DataFrame successfully created
+RECUPERADA: enrich_wos_with_openalex_authors
+2. WoS authors enriched with OpenAlex (names/ORCID/IDs)
+3. WoS references extracted
+INICIO: enrich_references_with_openalex — puede tardar; espera al mensaje FIN.
+[OpenAlex ERROR] DOI 10.1108/jeee-12-2020-0366: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/jeee-12-2020-0366?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1155/2022/64690: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1155/2022/64690?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.intrnar.2019.05.002: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.intrnar.2019.05.002?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.3923/jeasci.2017.87.94: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.3923/jeasci.2017.87.94?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1162/dmal.9780262562324.073: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1162/dmal.9780262562324.073?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.34190/eair.20.035: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.34190/eair.20.035?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.63922/ajmesc.v3i01.130: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.63922/ajmesc.v3i01.130?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.22201/fca.24488410-.2005.562: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.22201/fca.24488410-.2005.562?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5281/zenodo.4280084: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5281/zenodo.4280084?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.9770/jesi.2019.6.4(42: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.9770/jesi.2019.6.4(42?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-319-39679-813: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-319-39679-813?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.9770/jssi.2019.6.3(32: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.9770/jssi.2019.6.3(32?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13393/j.cnki.issn.1672-948x.2017.03.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13393/j.cnki.issn.1672-948x.2017.03.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-030-18819-14: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-030-18819-14?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.34021/ve.2023.06.01(4: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.34021/ve.2023.06.01(4?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1229/tecempresarialjournal.v19i1.455: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1229/tecempresarialjournal.v19i1.455?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5281/zenodo.887089: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5281/zenodo.887089?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.34021/ve.2022.05.01(2: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.34021/ve.2022.05.01(2?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1520-6793(199808)15:5: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1520-6793(199808)15:5?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-031-39626-7-9: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-031-39626-7-9?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1093/0198289774.001.0001: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1093/0198289774.001.0001?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1201/9781315155890-3/brief-history: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1201/9781315155890-3/brief-history?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.ac-cinf.2006.12.001: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.ac-cinf.2006.12.001?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13140/2.1.3311.9523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13140/2.1.3311.9523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199905)20:5: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199905)20:5?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2022.vol9.no9.0291: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2022.vol9.no9.0291?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.22452/ajba.vol14no2.6: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.22452/ajba.vol14no2.6?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1162/qes_a_00112: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1162/qes_a_00112?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-030-43453-31: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-030-43453-31?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1191/1478088706qp063oaandgt: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1191/1478088706qp063oaandgt?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5281/zenodo.7852087: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5281/zenodo.7852087?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.59160/ijscm.v9i3.5027: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.59160/ijscm.v9i3.5027?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(200003)21:3: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(200003)21:3?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1520-6653(200124)15:1andlt;13::aid-dir1001andgt;3.0.co;2: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1520-6653(200124)15:1andlt;13::aid-dir1001andgt;3.0.co;2?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13393/j.cnki.issn.1672-948x.2017.03.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13393/j.cnki.issn.1672-948x.2017.03.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1080/08276331.1998: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1080/08276331.1998?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.6000/1929-7092.2019.08.154: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.6000/1929-7092.2019.08.154?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.30880/jtet.2019.11.01.10: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.30880/jtet.2019.11.01.10?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.30880/jtet.2019.11.01.15: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.30880/jtet.2019.11.01.15?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.jedeen.2019.12.005: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.jedeen.2019.12.005?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.33403/rigeo.800614: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.33403/rigeo.800614?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1061/(asce)1527-6988: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1061/(asce)1527-6988?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.4314/fje.v13i1: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.4314/fje.v13i1?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5267/j.uscm.2021.x.007: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5267/j.uscm.2021.x.007?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.jbusres.2024.113751: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.jbusres.2024.113751?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.3390/su16135010: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.3390/su16135010?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.jclepro.2024.137385: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.jclepro.2024.137385?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.34218/ijaret.11.5.2020.010: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.34218/ijaret.11.5.2020.010?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1520-6793(200006)17:6: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1520-6793(200006)17:6?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no12.0203: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no12.0203?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1520-6793(199903)16:2: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1520-6793(199903)16:2?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.14207/ejsd.2019.v8n5p380: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.14207/ejsd.2019.v8n5p380?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5281/zenodo.1284573: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5281/zenodo.1284573?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159258: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159258?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13393/j.cnki.issn.1672-948x.2017.03.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13393/j.cnki.issn.1672-948x.2017.03.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-319-50850: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-319-50850?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.31435/rsglobalijite/30092020/7149: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.31435/rsglobalijite/30092020/7149?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.4135/9781483385666: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.4135/9781483385666?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(200003)21:3: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(200003)21:3?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199912)20:12: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199912)20:12?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.4135/9781483385666: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.4135/9781483385666?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.15722/jds.22.07.2024.07.63: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.15722/jds.22.07.2024.07.63?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.15722/jds.20.02.202202.19: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.15722/jds.20.02.202202.19?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5281/zenodo.887089: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5281/zenodo.887089?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13393/j.cnki.issn.1672-948x.2017.03.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13393/j.cnki.issn.1672-948x.2017.03.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1177/1350507609335850: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1177/1350507609335850?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5267/j.uscm.2021.x.007: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5267/j.uscm.2021.x.007?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.3390/su16145822: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.3390/su16145822?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.jbusres.2024.113751: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.jbusres.2024.113751?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.3390/su16135010: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.3390/su16135010?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.jclepro.2024.137385: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.jclepro.2024.137385?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.3316/agispt.20113788: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.3316/agispt.20113788?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1093/0191022403.001.0001: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1093/0191022403.001.0001?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(200003)21:3: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(200003)21:3?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199904)20:4: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199904)20:4?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159189: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159189?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.46970/2023.29: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.46970/2023.29?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.34190/eie.20.128: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.34190/eie.20.128?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1136/bmj: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1136/bmj?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.22937/ijcsns.2022.22.2.6: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.22937/ijcsns.2022.22.2.6?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1023/a:100971961532710.1023/a:1009719615327: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1023/a:100971961532710.1023/a:1009719615327?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159233: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159233?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/s1479: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/s1479?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.21203/rs.3.rs-907854/v1: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.21203/rs.3.rs-907854/v1?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no2.0523: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no2.0523?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159669: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159669?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.19744/j.cnki.11-1235/f.2020.0143: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.19744/j.cnki.11-1235/f.2020.0143?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.19744/j.cnki.11-1235/f.2024.0071: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.19744/j.cnki.11-1235/f.2024.0071?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.20077/j.cnki.11-1262/f.2023.05.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.20077/j.cnki.11-1262/f.2023.05.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.31004/joe.v5i4.2106: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.31004/joe.v5i4.2106?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13393/j.cnki.issn.1672-948x.2017.03.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13393/j.cnki.issn.1672-948x.2017.03.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1081/10196780410001675077: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1081/10196780410001675077?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1093/0198289774.001.0001: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1093/0198289774.001.0001?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1109/citsm61636.2024.10775331: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1109/citsm61636.2024.10775331?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.48550/arxiv.2404.17227: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.48550/arxiv.2404.17227?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.4103/jfmpc.jfmpc23317: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.4103/jfmpc.jfmpc23317?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.35699/2316-9389.2019.49747: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.35699/2316-9389.2019.49747?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.4236/jssm.2017.103002: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.4236/jssm.2017.103002?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.59160/ijscm.v9i3.5027: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.59160/ijscm.v9i3.5027?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.53739/samvad/2015/v8/98296: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.53739/samvad/2015/v8/98296?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159292: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159292?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.9790/487x-181391101: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.9790/487x-181391101?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13393/j.cnki.issn.1672-948x.2017.03.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13393/j.cnki.issn.1672-948x.2017.03.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.46656/access.2021.2.3(6: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.46656/access.2021.2.3(6?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.47738/ijaim.v2i1.29: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.47738/ijaim.v2i1.29?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5901/mjss.2013.v4n16p127: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5901/mjss.2013.v4n16p127?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(1998120)19:12: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(1998120)19:12?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.3923/ibm.2016.2444.2452: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.3923/ibm.2016.2444.2452?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-031-14961-05: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-031-14961-05?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-031-24101-78: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-031-24101-78?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.techfore.2017.03.00: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.techfore.2017.03.00?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.9756/int-jecse/v14i3.646: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.9756/int-jecse/v14i3.646?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1023/a:100971961532710.1023/a:1009719615327: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1023/a:100971961532710.1023/a:1009719615327?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159233: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159233?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1108/eum000000: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1108/eum000000?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159292: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159292?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.46306/rev.v5i2.749: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.46306/rev.v5i2.749?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.61412/jnsi.v4i2.273: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.61412/jnsi.v4i2.273?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1787/0c7f0c0c-en: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1787/0c7f0c0c-en?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.59525/jess.v4i2.916: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.59525/jess.v4i2.916?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.69897/jobemrs.v2i1.85: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.69897/jobemrs.v2i1.85?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.5465/20159793: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.5465/20159793?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.6007/ijarbss/v4-i1/534: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.6007/ijarbss/v4-i1/534?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1186/2251-7316-2-710.1186/2251-7316-2-7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1186/2251-7316-2-710.1186/2251-7316-2-7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.57585/gjem.022.011: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.57585/gjem.022.011?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-319-17461-7119: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-319-17461-7119?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1558/pent.v7i2.29: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1558/pent.v7i2.29?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1093/0198289774.001.0001: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1093/0198289774.001.0001?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.58262/ks.v12i1.209: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.58262/ks.v12i1.209?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.13106/jafeb.2021.vol8.no5.0201: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.13106/jafeb.2021.vol8.no5.0201?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.4324/9781003117452: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.4324/9781003117452?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1093/0198289774.001.0001: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1093/0198289774.001.0001?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159695: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159695?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1111/j.1540-5885.2012.009202.x: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1111/j.1540-5885.2012.009202.x?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.30976/susead.1148908https://doi.org/10.30976/susead.1148908: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.30976/susead.1148908https://doi.org/10.30976/susead.1148908?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.jtrangeo.2025.103829: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.jtrangeo.2025.103829?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.rtbm.2020.100627: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.rtbm.2020.100627?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.cstp.2023.12.004: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.cstp.2023.12.004?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1057/s41599-024-02946-2: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1057/s41599-024-02946-2?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1057/palgrave.mel.9100195https://doi.org/10.1057/palgrave.mel.9100195: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1057/palgrave.mel.9100195https://doi.org/10.1057/palgrave.mel.9100195?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.15722/jds.21.08.202308.23: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.15722/jds.21.08.202308.23?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.12989/anr.2024.16.5.521: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.12989/anr.2024.16.5.521?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1111/j.1540-5885.2012.009202.x: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1111/j.1540-5885.2012.009202.x?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/(sici)1097-0266(199708)18:7: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/(sici)1097-0266(199708)18:7?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/9781118416945: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/9781118416945?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1016/j.infoorg.2021.100338: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1016/j.infoorg.2021.100338?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.2307/20159189: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.2307/20159189?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-1-4614-3223-412: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-1-4614-3223-412?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1002/1097-0266(200010/11)21:10/11: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1002/1097-0266(200010/11)21:10/11?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-319-39679-813: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-319-39679-813?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.9790/7388-1201052229: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.9790/7388-1201052229?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1177/104225870202600303dresdenalindi: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1177/104225870202600303dresdenalindi?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.15722/jds.20.06.202206.99: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.15722/jds.20.06.202206.99?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1057/97811373184112: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1057/97811373184112?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1007/978-3-030-72624-913: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1007/978-3-030-72624-913?api_key=[CLAVE_OCULTA]
+[OpenAlex ERROR] DOI 10.1109/citcs.2014.7021790: 404 Client Error: Not Found for url: https://api.openalex.org/works/doi:10.1109/citcs.2014.7021790?api_key=[CLAVE_OCULTA]
+FIN: enrich_references_with_openalex — 124.0 minutos; recuperación guardada.
+4. WoS references enriched with OpenAlex
+/usr/local/lib/python3.13/dist-packages/bibfusion/modules/merge_wos_ref.py:103: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  combined_df = pd.concat([wos_df, wos_ref_cleaned], ignore_index=True)
+5. WoS and references DataFrame merged
+5.1. WoS journal data standardized
+6. Missing ISSN/EISSN filled with Scimago
+6.1. SR aggregated and Scimago IDs attached
+6.2. Duplicate source IDs resolved in WoS
+7. WoS author raw data generated
+8. WoS author data enriched
+9. WoS author, ArticleAuthor, and affiliation data generated
+9.1. Author consolidation generated: AuthorPerson/AuthorAlias/AuthorConflicts
+9.2. Added PersonID to Author and ArticleAuthor
+10. Affiliation countries extracted
+23 duplicate rows found based on 'doi' (only with valid DOI).
+11. Article entity obtained
+
+              ===============================
+                Reading Scopus file...
+              ===============================
+              
+1. Scopus DataFrame created
+INICIO: enrich_scopus_with_openalex_authors — puede tardar; espera al mensaje FIN.
+FIN: enrich_scopus_with_openalex_authors — 2.1 minutos; recuperación guardada.
+2. Scopus authors enriched with OpenAlex (names/ORCID/IDs)
+INICIO: generate_references_column — puede tardar; espera al mensaje FIN.
+DOI not found (404): 10.34109/ijebeg.202214117. Skipping.
+DOI not found (404): 10.15722/jds.24.07.202607.45. Skipping.
+DOI not found (404): 10.34109/ijebeg.2026180108. Skipping.
+DOI not found (404): 10.15722/jds.21.07.202307.105. Skipping.
+DOI not found (404): 10.47750/QAS/26.204.01. Skipping.
+DOI not found (404): 10.34109/ijebeg. 202214135. Skipping.
+DOI not found (404): 10.33182/tmj.v10i3.2339. Skipping.
+DOI not found (404): 10.14505/jemt.10.4(36).19. Skipping.
+DOI not found (404): 10.37868/hsd.v7i1.1265. Skipping.
+FIN: generate_references_column — 2.4 minutos; recuperación guardada.
+3. Scopus references extracted
+INICIO: openalex_enrich_ref — puede tardar; espera al mensaje FIN.
+Work ID not found (404): W3169819986. Skipping.
+Work ID not found (404): W771180560. Skipping.
+Work ID not found (404): W6785684113. Skipping.
+Work ID not found (404): W3124253847. Skipping.
+Work ID not found (404): W3125319156. Skipping.
+Work ID not found (404): W3125559582. Skipping.
+Work ID not found (404): W3125962247. Skipping.
+Work ID not found (404): W4214861552. Skipping.
+Work ID not found (404): W2312234006. Skipping.
+Work ID not found (404): W3123937439. Skipping.
+Work ID not found (404): W6602586656. Skipping.
+Work ID not found (404): W6608161192. Skipping.
+Work ID not found (404): W6723002218. Skipping.
+Work ID not found (404): W6752891040. Skipping.
+Work ID not found (404): W4367590697. Skipping.
+Work ID not found (404): W6743681256. Skipping.
+Work ID not found (404): W1967652316. Skipping.
+Work ID not found (404): W3123679541. Skipping.
+Work ID not found (404): W3129430991. Skipping.
+Work ID not found (404): W3108940637. Skipping.
+Work ID not found (404): W3124360797. Skipping.
+Work ID not found (404): W3157224652. Skipping.
+Work ID not found (404): W6738399415. Skipping.
+Work ID not found (404): W1973906666. Skipping.
+Work ID not found (404): W3125983421. Skipping.
+Work ID not found (404): W6998445891. Skipping.
+Work ID not found (404): W2132747867. Skipping.
+Work ID not found (404): W3013114114. Skipping.
+Work ID not found (404): W1991624436. Skipping.
+Work ID not found (404): W3122259522. Skipping.
+Work ID not found (404): W3124585256. Skipping.
+Work ID not found (404): W6761816013. Skipping.
+Work ID not found (404): W2912662616. Skipping.
+Work ID not found (404): W3126094737. Skipping.
+Work ID not found (404): W3124183504. Skipping.
+Work ID not found (404): W6775426007. Skipping.
+Work ID not found (404): W6786907962. Skipping.
+Work ID not found (404): W6695147765. Skipping.
+Work ID not found (404): W6773501224. Skipping.
+Work ID not found (404): W3169819986. Skipping.
+Work ID not found (404): W2077105771. Skipping.
+Work ID not found (404): W4407976603. Skipping.
+Work ID not found (404): W2132747867. Skipping.
+Work ID not found (404): W1994213885. Skipping.
+Work ID not found (404): W3121521743. Skipping.
+Work ID not found (404): W3207598599. Skipping.
+Work ID not found (404): W6773064785. Skipping.
+Work ID not found (404): W6848134971. Skipping.
+Work ID not found (404): W6867929258. Skipping.
+Work ID not found (404): W6876130983. Skipping.
+Work ID not found (404): W2095641105. Skipping.
+Work ID not found (404): W2959130277. Skipping.
+Work ID not found (404): W3125420828. Skipping.
+Work ID not found (404): W2566765383. Skipping.
+Work ID not found (404): W6642722893. Skipping.
+Work ID not found (404): W6741835365. Skipping.
+Work ID not found (404): W6753996341. Skipping.
+Work ID not found (404): W6757769475. Skipping.
+Work ID not found (404): W7066289674. Skipping.
+Work ID not found (404): W6730790284. Skipping.
+Work ID not found (404): W6731128841. Skipping.
+Work ID not found (404): W6771849217. Skipping.
+Work ID not found (404): W6775919015. Skipping.
+Work ID not found (404): W6787235957. Skipping.
+Work ID not found (404): W4376596064. Skipping.
+Work ID not found (404): W6630030605. Skipping.
+Work ID not found (404): W6696228498. Skipping.
+Work ID not found (404): W6722642518. Skipping.
+Work ID not found (404): W6740969881. Skipping.
+Work ID not found (404): W6746539351. Skipping.
+Work ID not found (404): W6817063318. Skipping.
+Work ID not found (404): W6831224978. Skipping.
+Work ID not found (404): W6834802312. Skipping.
+Work ID not found (404): W6837420971. Skipping.
+Work ID not found (404): W2923372840. Skipping.
+Work ID not found (404): W771180560. Skipping.
+Work ID not found (404): W6712998668. Skipping.
+Work ID not found (404): W7039246917. Skipping.
+Work ID not found (404): W7056141445. Skipping.
+Work ID not found (404): W3102444842. Skipping.
+Work ID not found (404): W3125399722. Skipping.
+Work ID not found (404): W2902960924. Skipping.
+Work ID not found (404): W2184951804. Skipping.
+Work ID not found (404): W3003262398. Skipping.
+Work ID not found (404): W3155054908. Skipping.
+Work ID not found (404): W4205201939. Skipping.
+Work ID not found (404): W6703274546. Skipping.
+Work ID not found (404): W2059503205. Skipping.
+Work ID not found (404): W4400996945. Skipping.
+Work ID not found (404): W3125067458. Skipping.
+Work ID not found (404): W2103650480. Skipping.
+Work ID not found (404): W3207598599. Skipping.
+Work ID not found (404): W6683144217. Skipping.
+Work ID not found (404): W6823278537. Skipping.
+Work ID not found (404): W3125505924. Skipping.
+Work ID not found (404): W2091579301. Skipping.
+Work ID not found (404): W4229521504. Skipping.
+Work ID not found (404): W6600917600. Skipping.
+Work ID not found (404): W6602586656. Skipping.
+Work ID not found (404): W6629423375. Skipping.
+Work ID not found (404): W6644151728. Skipping.
+Work ID not found (404): W6674194868. Skipping.
+Work ID not found (404): W6675160859. Skipping.
+Work ID not found (404): W6675877758. Skipping.
+Work ID not found (404): W6690547842. Skipping.
+Work ID not found (404): W6722735955. Skipping.
+Work ID not found (404): W6736271361. Skipping.
+Work ID not found (404): W6749644481. Skipping.
+Work ID not found (404): W2184590729. Skipping.
+Work ID not found (404): W2343308202. Skipping.
+Work ID not found (404): W3123679541. Skipping.
+Work ID not found (404): W4285719527. Skipping.
+Work ID not found (404): W2893309114. Skipping.
+Work ID not found (404): W6633907503. Skipping.
+Work ID not found (404): W6785684113. Skipping.
+Work ID not found (404): W2255721751. Skipping.
+Work ID not found (404): W6775712680. Skipping.
+Work ID not found (404): W192572061. Skipping.
+Work ID not found (404): W2405323394. Skipping.
+Work ID not found (404): W3154755508. Skipping.
+Work ID not found (404): W6607768479. Skipping.
+Work ID not found (404): W6631797800. Skipping.
+Work ID not found (404): W6639111778. Skipping.
+Work ID not found (404): W6651690467. Skipping.
+Work ID not found (404): W6661982639. Skipping.
+Work ID not found (404): W6679001147. Skipping.
+Work ID not found (404): W6682369656. Skipping.
+Work ID not found (404): W6686078024. Skipping.
+Work ID not found (404): W6699093355. Skipping.
+Work ID not found (404): W6704351130. Skipping.
+Work ID not found (404): W6713141293. Skipping.
+Work ID not found (404): W6721723530. Skipping.
+Work ID not found (404): W6729075404. Skipping.
+Work ID not found (404): W6745266189. Skipping.
+Work ID not found (404): W6745729508. Skipping.
+Work ID not found (404): W6750762285. Skipping.
+Work ID not found (404): W6752491216. Skipping.
+Work ID not found (404): W6756369689. Skipping.
+Work ID not found (404): W6760801895. Skipping.
+Work ID not found (404): W6765811440. Skipping.
+Work ID not found (404): W6766014833. Skipping.
+Work ID not found (404): W6766577626. Skipping.
+Work ID not found (404): W6774358499. Skipping.
+Work ID not found (404): W6781418782. Skipping.
+Work ID not found (404): W6781591956. Skipping.
+Work ID not found (404): W6787923900. Skipping.
+Work ID not found (404): W6793976013. Skipping.
+Work ID not found (404): W6794922378. Skipping.
+Work ID not found (404): W6795283609. Skipping.
+Work ID not found (404): W6808657833. Skipping.
+Work ID not found (404): W6809957842. Skipping.
+Work ID not found (404): W6810051944. Skipping.
+Work ID not found (404): W6810128072. Skipping.
+Work ID not found (404): W6810357564. Skipping.
+Work ID not found (404): W6839262039. Skipping.
+Work ID not found (404): W6839759365. Skipping.
+Work ID not found (404): W6839994518. Skipping.
+Work ID not found (404): W6851593519. Skipping.
+Work ID not found (404): W7044229211. Skipping.
+Work ID not found (404): W1915392592. Skipping.
+Work ID not found (404): W6741824148. Skipping.
+Work ID not found (404): W6760641582. Skipping.
+Work ID not found (404): W3001057584. Skipping.
+Work ID not found (404): W3121364894. Skipping.
+Work ID not found (404): W2727956648. Skipping.
+Work ID not found (404): W3125601827. Skipping.
+Work ID not found (404): W6634835551. Skipping.
+Work ID not found (404): W6785684113. Skipping.
+Work ID not found (404): W3121626643. Skipping.
+Work ID not found (404): W6602948671. Skipping.
+Work ID not found (404): W3122589703. Skipping.
+Work ID not found (404): W2736051199. Skipping.
+Work ID not found (404): W4205201939. Skipping.
+Work ID not found (404): W2504594815. Skipping.
+Work ID not found (404): W2555756618. Skipping.
+Work ID not found (404): W2763064507. Skipping.
+Work ID not found (404): W6636315033. Skipping.
+Work ID not found (404): W6677976839. Skipping.
+Work ID not found (404): W6768097892. Skipping.
+Work ID not found (404): W6785684113. Skipping.
+Work ID not found (404): W6755398859. Skipping.
+Work ID not found (404): W3124585256. Skipping.
+Work ID not found (404): W6681855447. Skipping.
+Work ID not found (404): W2770193459. Skipping.
+Work ID not found (404): W6617728370. Skipping.
+Work ID not found (404): W6634233009. Skipping.
+Work ID not found (404): W6647975832. Skipping.
+Work ID not found (404): W6738880541. Skipping.
+Work ID not found (404): W6787141586. Skipping.
+Work ID not found (404): W2737935978. Skipping.
+Work ID not found (404): W2916703598. Skipping.
+Work ID not found (404): W3125306802. Skipping.
+Work ID not found (404): W7048250930. Skipping.
+Work ID not found (404): W1978094047. Skipping.
+Work ID not found (404): W3121439200. Skipping.
+Work ID not found (404): W6606123770. Skipping.
+Work ID not found (404): W6631705094. Skipping.
+Work ID not found (404): W1973906666. Skipping.
+Work ID not found (404): W6755602842. Skipping.
+Work ID not found (404): W6990470044. Skipping.
+Work ID not found (404): W2005311637. Skipping.
+Work ID not found (404): W2136177758. Skipping.
+Work ID not found (404): W2148398225. Skipping.
+Work ID not found (404): W3101964319. Skipping.
+Work ID not found (404): W3122100588. Skipping.
+Work ID not found (404): W3123278017. Skipping.
+Work ID not found (404): W3125505924. Skipping.
+Work ID not found (404): W6685637958. Skipping.
+Work ID not found (404): W6715753692. Skipping.
+Work ID not found (404): W6637639269. Skipping.
+Work ID not found (404): W6619373646. Skipping.
+Work ID not found (404): W6725187189. Skipping.
+Work ID not found (404): W6732470609. Skipping.
+Work ID not found (404): W6758217794. Skipping.
+Work ID not found (404): W6759217420. Skipping.
+Work ID not found (404): W6761811666. Skipping.
+Work ID not found (404): W6764850126. Skipping.
+Work ID not found (404): W6766290795. Skipping.
+Work ID not found (404): W6770409400. Skipping.
+Work ID not found (404): W6771119842. Skipping.
+Work ID not found (404): W6772025324. Skipping.
+Work ID not found (404): W6772277509. Skipping.
+Work ID not found (404): W6780547638. Skipping.
+Work ID not found (404): W6783688884. Skipping.
+Work ID not found (404): W2004720570. Skipping.
+Work ID not found (404): W3124833808. Skipping.
+Work ID not found (404): W3123679541. Skipping.
+Work ID not found (404): W6771579066. Skipping.
+Work ID not found (404): W6990470044. Skipping.
+Work ID not found (404): W2095641105. Skipping.
+Work ID not found (404): W3129430991. Skipping.
+Work ID not found (404): W3201329588. Skipping.
+Work ID not found (404): W3124058086. Skipping.
+Work ID not found (404): W6635703827. Skipping.
+Work ID not found (404): W6696990023. Skipping.
+Work ID not found (404): W6700333795. Skipping.
+Work ID not found (404): W6722096227. Skipping.
+Work ID not found (404): W6743943692. Skipping.
+Work ID not found (404): W6751949150. Skipping.
+Work ID not found (404): W6753746159. Skipping.
+Work ID not found (404): W6761218037. Skipping.
+Work ID not found (404): W6762649512. Skipping.
+Work ID not found (404): W6766391087. Skipping.
+Work ID not found (404): W6766523475. Skipping.
+Work ID not found (404): W6768424362. Skipping.
+Work ID not found (404): W6772124960. Skipping.
+Work ID not found (404): W6776730662. Skipping.
+Work ID not found (404): W6776976542. Skipping.
+Work ID not found (404): W6779363808. Skipping.
+Work ID not found (404): W6780471863. Skipping.
+Work ID not found (404): W6780742590. Skipping.
+Work ID not found (404): W6783907567. Skipping.
+Work ID not found (404): W6784060439. Skipping.
+Work ID not found (404): W3125505924. Skipping.
+Work ID not found (404): W3140968591. Skipping.
+Work ID not found (404): W3121177474. Skipping.
+Work ID not found (404): W4285719527. Skipping.
+Work ID not found (404): W3122073606. Skipping.
+Work ID not found (404): W3215073253. Skipping.
+Work ID not found (404): W6632589123. Skipping.
+Work ID not found (404): W6741021883. Skipping.
+Work ID not found (404): W6742079068. Skipping.
+Work ID not found (404): W6745611821. Skipping.
+Work ID not found (404): W6754229210. Skipping.
+Work ID not found (404): W6761753744. Skipping.
+Work ID not found (404): W6762103108. Skipping.
+Work ID not found (404): W6762113427. Skipping.
+Work ID not found (404): W6765014565. Skipping.
+Work ID not found (404): W6765334606. Skipping.
+Work ID not found (404): W6765721431. Skipping.
+Work ID not found (404): W6766224595. Skipping.
+Work ID not found (404): W6767045735. Skipping.
+Work ID not found (404): W6771060516. Skipping.
+Work ID not found (404): W6779711363. Skipping.
+Work ID not found (404): W6786734064. Skipping.
+Work ID not found (404): W6787403936. Skipping.
+Work ID not found (404): W6787839843. Skipping.
+Work ID not found (404): W6789956049. Skipping.
+Work ID not found (404): W6797025086. Skipping.
+Work ID not found (404): W6800504121. Skipping.
+Work ID not found (404): W6804285580. Skipping.
+Work ID not found (404): W6805372522. Skipping.
+Work ID not found (404): W6806219873. Skipping.
+Work ID not found (404): W6863022825. Skipping.
+Work ID not found (404): W6619129309. Skipping.
+Work ID not found (404): W6775665645. Skipping.
+Work ID not found (404): W3124585256. Skipping.
+Work ID not found (404): W1600139810. Skipping.
+Work ID not found (404): W1973906666. Skipping.
+Work ID not found (404): W2255721751. Skipping.
+Work ID not found (404): W6607702765. Skipping.
+Work ID not found (404): W2330277600. Skipping.
+Work ID not found (404): W3123902703. Skipping.
+Work ID not found (404): W4211069910. Skipping.
+Work ID not found (404): W2050706463. Skipping.
+Work ID not found (404): W6732309688. Skipping.
+Work ID not found (404): W6785684113. Skipping.
+Work ID not found (404): W4233389320. Skipping.
+Work ID not found (404): W6638296777. Skipping.
+Work ID not found (404): W6785684113. Skipping.
+Work ID not found (404): W6795495627. Skipping.
+Work ID not found (404): W6814243422. Skipping.
+Work ID not found (404): W47533636. Skipping.
+Work ID not found (404): W2095641105. Skipping.
+Work ID not found (404): W3012209136. Skipping.
+Work ID not found (404): W3099768174. Skipping.
+Work ID not found (404): W4205962651. Skipping.
+Work ID not found (404): W4226125629. Skipping.
+Work ID not found (404): W6607799844. Skipping.
+Work ID not found (404): W6754814349. Skipping.
+Work ID not found (404): W6776416709. Skipping.
+Work ID not found (404): W7005960814. Skipping.
+Work ID not found (404): W3215598532. Skipping.
+Work ID not found (404): W6602777914. Skipping.
+Work ID not found (404): W6605554037. Skipping.
+Work ID not found (404): W6625644803. Skipping.
+Work ID not found (404): W6629959804. Skipping.
+Work ID not found (404): W6677130702. Skipping.
+Work ID not found (404): W6686322038. Skipping.
+Work ID not found (404): W6688057609. Skipping.
+Work ID not found (404): W6722543380. Skipping.
+Work ID not found (404): W6736554460. Skipping.
+Work ID not found (404): W6745861601. Skipping.
+Work ID not found (404): W6754532290. Skipping.
+Work ID not found (404): W6628479764. Skipping.
+Work ID not found (404): W6633447411. Skipping.
+Work ID not found (404): W6637563004. Skipping.
+Work ID not found (404): W7000494852. Skipping.
+Work ID not found (404): W127844095. Skipping.
+Work ID not found (404): W2094905150. Skipping.
+Work ID not found (404): W3124668909. Skipping.
+Work ID not found (404): W6605242712. Skipping.
+Work ID not found (404): W6644318493. Skipping.
+Work ID not found (404): W6645126234. Skipping.
+Work ID not found (404): W6665784969. Skipping.
+Work ID not found (404): W6678848774. Skipping.
+Work ID not found (404): W6744770729. Skipping.
+Work ID not found (404): W6759279848. Skipping.
+Work ID not found (404): W6776417059. Skipping.
+Work ID not found (404): W6853994984. Skipping.
+Work ID not found (404): W2991639416. Skipping.
+Work ID not found (404): W6980159480. Skipping.
+Work ID not found (404): W6689343276. Skipping.
+Work ID not found (404): W6832670723. Skipping.
+Work ID not found (404): W2181585437. Skipping.
+Work ID not found (404): W4285719527. Skipping.
+Work ID not found (404): W6639999004. Skipping.
+Work ID not found (404): W6650199890. Skipping.
+Work ID not found (404): W6790103963. Skipping.
+Work ID not found (404): W6798179049. Skipping.
+FIN: openalex_enrich_ref — 90.1 minutos; recuperación guardada.
+4. Scopus references enriched with OpenAlex
+5. 'source_title' column filled from Scimago
+6. 'SR_ref' column generated with format: FIRSTAUTHOR, YEAR, SOURCE_TITLE
+7. Scopus citation DataFrame generated
+8. Scopus and references DataFrames merged
+8.1. Author names filled from full names
+Found 1678 duplicate rows based on 'doi' (excluding empty DOIs).
+9. Article entity obtained
+10. Standardize Scopus journal data
+11. Filled missing ISSN/EISSN with Scimago
+12. SR added and Scimago IDs attached
+13. Duplicate source IDs resolved in Scopus
+14. Year and Scimago information added to scimagodb
+15. 'scopus_author_raw' generated
+16. Enriched 'scopus_author_raw'
+17. Scopus_author, articleauthor_scopus, and scopus_author_affiliation generated
+17.1. Consolidation of authors (Scopus) generated and PersonID propagated
+18. Affiliation countries extracted
+WoS main (orig): 200
+Scopus main (orig): 230
+WoS main merged: 200
+Scopus main merged: 230
+Main después merge: 377
+Main después merge: 377
+20. All_* (WoS+Scopus) generated in 'all_data_wos_scopus'
+
+              =================================================
+               Both WoS and Scopus files have been processed.
+              =================================================
+              
+'preprocessing_df' executed in 14641.83 seconds
+TERMINADO: siete tablas generadas y legibles. Falta auditar su calidad.

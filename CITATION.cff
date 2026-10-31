@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ProMetrics network analysis: relational leadership and collaboration in digital entrepreneurial marketing"
+type: software
+version: 1.0.0
+date-released: 2026-10-29
+license: MIT
+authors:
+  - name: "[Authors of the manuscript - to be completed]"
+repository-code: "https://github.com/<user>/<repository>"

@@ -1,0 +1,163 @@
+{
+  "data_info": {
+    "authorship_rows_raw": 41271,
+    "authorship_rows_after_dedup": 39448,
+    "authorship_rows_without_article_metadata": 123,
+    "documents_in_article_table": 16172,
+    "documents_with_authors": 12960,
+    "documents_without_year": 167,
+    "main_corpus_documents": 376
+  },
+  "table1": {
+    "Author identifiers": 9986,
+    "Distinct coauthorship links": 65803,
+    "Identifiers attached to main corpus": 410,
+    "Reference-only identifiers": 9576,
+    "Mean degree": 13.18,
+    "Median degree": 4.0,
+    "Density (%)": 0.132,
+    "Associated documents": 5373,
+    "Documents with usable year": 5372,
+    "Giant component share of expanded network (%)": 35.3
+  },
+  "table2": [
+    {
+      "Window": "2017-2019",
+      "Documents": 983,
+      "Active identifiers": 2590,
+      "Distinct links": 5542,
+      "Positive betweenness": 385,
+      "High-betweenness group": 269
+    },
+    {
+      "Window": "2020-2022",
+      "Documents": 1378,
+      "Active identifiers": 4135,
+      "Distinct links": 45667,
+      "Positive betweenness": 729,
+      "High-betweenness group": 414
+    },
+    {
+      "Window": "2023-2025",
+      "Documents": 610,
+      "Active identifiers": 1990,
+      "Distinct links": 7377,
+      "Positive betweenness": 264,
+      "High-betweenness group": 199
+    }
+  ],
+  "H1": {
+    "ratio": 1.149016576643218,
+    "ci": [
+      1.0302762565780637,
+      1.2814418317140615
+    ],
+    "p": 0.012562114060531638,
+    "n": 6725,
+    "n_clusters": 5885,
+    "alpha": 12.050149950643963,
+    "pearson_dispersion": 2.9313596572200384,
+    "mean_y": 1.6156133828996282,
+    "var_y": 87.00734095698921,
+    "share_zero_obs": 0.8011895910780669,
+    "share_zero_pred": 0.7985708187465737,
+    "converged": true,
+    "bootstrap_ci": [
+      1.0325144436249096,
+      1.2905816791822284
+    ],
+    "any_new_collab_odds_ratio": [
+      1.0725320070679925,
+      0.9973181724888156,
+      1.1534181747783168
+    ],
+    "interaction_z_x_period2_ratio": [
+      0.9854379131098028,
+      0.810429200410593,
+      1.1982390073089848,
+      0.8830925037386689
+    ]
+  },
+  "H2": {
+    "or": 1.3338455164082372,
+    "ci": [
+      1.1242086469783081,
+      1.5825744326237032
+    ],
+    "p": 0.0009597544881131169,
+    "n": 683,
+    "persisted": 141,
+    "n_clusters": 604,
+    "bootstrap_ci": [
+      1.1222931244854462,
+      1.5957662003684283
+    ],
+    "converged": true
+  },
+  "persistence": [
+    {
+      "transition": "2017-2019 -> 2020-2022",
+      "eligible": 269,
+      "persisted": 79,
+      "proportion": 0.2936802973977695,
+      "distinct_baseline_ids": 269
+    },
+    {
+      "transition": "2020-2022 -> 2023-2025",
+      "eligible": 414,
+      "persisted": 62,
+      "proportion": 0.1497584541062802,
+      "distinct_baseline_ids": 414
+    }
+  ],
+  "thresholds_bc": {
+    "2017-2019": 1.7909560302385014e-06,
+    "2020-2022": 4.686946003516221e-05,
+    "2023-2025": 2.1875850376265145e-06
+  },
+  "sensitivity": [
+    {
+      "variant": "principal",
+      "H1_ratio": 1.149016576643218,
+      "H1_lo": 1.0302762565780637,
+      "H1_hi": 1.2814418317140615,
+      "H1_p": 0.012562114060531638,
+      "H2_OR": 1.3338455164082372,
+      "H2_lo": 1.1242086469783081,
+      "H2_hi": 1.5825744326237032,
+      "H2_p": 0.0009597544881131169,
+      "H2_n": 683
+    },
+    {
+      "variant": "Excluding teams \u2265 25",
+      "H1_ratio": 1.0612422848414003,
+      "H1_lo": 0.9912192216339523,
+      "H1_hi": 1.1362120129983753,
+      "H1_p": 0.08786730461365443,
+      "H2_OR": 1.2874256682652871,
+      "H2_lo": 1.0896171721522026,
+      "H2_hi": 1.5211442088733886,
+      "H2_p": 0.0029935273276491163,
+      "H2_n": 627,
+      "docs_removed": 13,
+      "max_team_removed": 264
+    },
+    {
+      "variant": "top 20%",
+      "H2_OR": 1.1435862811027673,
+      "H2_lo": 1.0305683146047269,
+      "H2_hi": 1.268998438815828,
+      "H2_p": 0.011499403289961754,
+      "H2_n": 1114
+    },
+    {
+      "variant": "top 5%",
+      "H2_OR": 1.2337644862808015,
+      "H2_lo": 0.9678476336650574,
+      "H2_hi": 1.5727421906726575,
+      "H2_p": 0.08986077474529665,
+      "H2_n": 339
+    }
+  ],
+  "statsmodels_crosscheck": {}
+}

@@ -1,0 +1,21 @@
+{
+  "archivos": {
+    "scopus.csv": "0e449b4a6d7af21a89f5c0430ccc6fe19b668838dc734a87ef209bfff0432af3",
+    "wos.txt": "2a8e7dcb6b8b78e8ed04e30c26c8b335f3f23d33eb2fb58a41fdba37d245ebec",
+    "scimago.csv": "e544a928ea572bdcd219fc1cedb2fcc1ef1a6f700675219ba9206127e43fb60b"
+  },
+  "revision": "ffda6561f812a2645c9fb234fa0536a798d694e3",
+  "version_docente": "1.0",
+  "python": "3.13.16",
+  "dependencias": {
+    "bibfusion": "1.0.0",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "requests": "2.32.4",
+    "rapidfuzz": "3.14.6"
+  },
+  "preparado_utc": "2026-10-09T14:24:34.966611+00:00",
+  "scopus_registros": 230,
+  "wos_registros": 200,
+  "country_sha256": "162416fd02e80bc95f84939f3cde3fcf575a0b377ae2abb7abd015d2ba5e4137"
+}

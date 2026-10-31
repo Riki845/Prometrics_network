@@ -1,0 +1,163 @@
+{
+  "data_info": {
+    "authorship_rows_raw": 19098,
+    "authorship_rows_after_dedup": 18268,
+    "authorship_rows_without_article_metadata": 62,
+    "documents_in_article_table": 6629,
+    "documents_with_authors": 6596,
+    "documents_without_year": 2,
+    "main_corpus_documents": 229
+  },
+  "table1": {
+    "Author identifiers": 2992,
+    "Distinct coauthorship links": 9264,
+    "Identifiers attached to main corpus": 109,
+    "Reference-only identifiers": 2883,
+    "Mean degree": 6.19,
+    "Median degree": 3.0,
+    "Density (%)": 0.207,
+    "Associated documents": 1848,
+    "Documents with usable year": 1847,
+    "Giant component share of expanded network (%)": 21.8
+  },
+  "table2": [
+    {
+      "Window": "2017-2019",
+      "Documents": 390,
+      "Active identifiers": 918,
+      "Distinct links": 1797,
+      "Positive betweenness": 138,
+      "High-betweenness group": 99
+    },
+    {
+      "Window": "2020-2022",
+      "Documents": 472,
+      "Active identifiers": 1239,
+      "Distinct links": 3083,
+      "Positive betweenness": 240,
+      "High-betweenness group": 124
+    },
+    {
+      "Window": "2023-2025",
+      "Documents": 168,
+      "Active identifiers": 570,
+      "Distinct links": 2933,
+      "Positive betweenness": 71,
+      "High-betweenness group": 57
+    }
+  ],
+  "H1": {
+    "ratio": 1.259755432277971,
+    "ci": [
+      1.0527706058070085,
+      1.507435466378114
+    ],
+    "p": 0.011683936391470267,
+    "n": 2157,
+    "n_clusters": 1854,
+    "alpha": 11.122349208924252,
+    "pearson_dispersion": 1.9594314555800922,
+    "mean_y": 1.7023643949930458,
+    "var_y": 47.523616856022976,
+    "share_zero_obs": 0.7858136300417247,
+    "share_zero_pred": 0.7830575568805336,
+    "converged": true,
+    "bootstrap_ci": [
+      1.0727788291022071,
+      1.4952139270137343
+    ],
+    "any_new_collab_odds_ratio": [
+      1.1721277587254122,
+      1.0368151447514018,
+      1.3250997438931849
+    ],
+    "interaction_z_x_period2_ratio": [
+      1.0638431995925213,
+      0.8552092975027745,
+      1.3233747067811563,
+      0.5784384251031696
+    ]
+  },
+  "H2": {
+    "or": 1.236311880530814,
+    "ci": [
+      0.8994251540373678,
+      1.6993821654649162
+    ],
+    "p": 0.19123261071919317,
+    "n": 223,
+    "persisted": 42,
+    "n_clusters": 202,
+    "bootstrap_ci": [
+      0.8345387224936376,
+      1.7746646732457043
+    ],
+    "converged": true
+  },
+  "persistence": [
+    {
+      "transition": "2017-2019 -> 2020-2022",
+      "eligible": 99,
+      "persisted": 21,
+      "proportion": 0.21212121212121213,
+      "distinct_baseline_ids": 99
+    },
+    {
+      "transition": "2020-2022 -> 2023-2025",
+      "eligible": 124,
+      "persisted": 21,
+      "proportion": 0.1693548387096774,
+      "distinct_baseline_ids": 124
+    }
+  ],
+  "thresholds_bc": {
+    "2017-2019": 9.524126994709347e-06,
+    "2020-2022": 0.00020539594315377842,
+    "2023-2025": 2.326790267085823e-05
+  },
+  "sensitivity": [
+    {
+      "variant": "principal",
+      "H1_ratio": 1.259755432277971,
+      "H1_lo": 1.0527706058070085,
+      "H1_hi": 1.507435466378114,
+      "H1_p": 0.011683936391470267,
+      "H2_OR": 1.236311880530814,
+      "H2_lo": 0.8994251540373678,
+      "H2_hi": 1.6993821654649162,
+      "H2_p": 0.19123261071919317,
+      "H2_n": 223
+    },
+    {
+      "variant": "Excluding teams \u2265 25",
+      "H1_ratio": 1.1537978712802568,
+      "H1_lo": 1.020631355892353,
+      "H1_hi": 1.3043392406917786,
+      "H1_p": 0.022232269627876958,
+      "H2_OR": 1.2214553211046784,
+      "H2_lo": 0.890754900869456,
+      "H2_hi": 1.6749311174136159,
+      "H2_p": 0.2142962590454489,
+      "H2_n": 212,
+      "docs_removed": 5,
+      "max_team_removed": 62
+    },
+    {
+      "variant": "top 20%",
+      "H2_OR": 1.2901875060565218,
+      "H2_lo": 1.0537408863974325,
+      "H2_hi": 1.57968986709369,
+      "H2_p": 0.013632231938874934,
+      "H2_n": 378
+    },
+    {
+      "variant": "top 5%",
+      "H2_OR": 0.6016673089259779,
+      "H2_lo": 0.26624555568630026,
+      "H2_hi": 1.3596604446488985,
+      "H2_p": 0.22193954084342338,
+      "H2_n": 108
+    }
+  ],
+  "statsmodels_crosscheck": {}
+}

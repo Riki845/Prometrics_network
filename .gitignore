@@ -1,0 +1,12 @@
+# Python / entornos
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+# Cachés de recuperación de BibFusion (pickles: no se publican; se regeneran y descargar/abrir
+# un pickle ajeno puede ejecutar código arbitrario)
+recuperacion/
+*.pkl
+*.pkl.gz
+# Salidas locales con identidades (solo para trabajo interno)
+results_internal/
